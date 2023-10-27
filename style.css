@@ -1,0 +1,1358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #80E2FF;
+    --secondary-color: #FFD36A;
+    --btn-color: #182327;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header {
+    max-width: 100%;
+    padding: 40px 0;
+    background-color: #FFFFFF;
+}
+
+.mobaile-part {
+    display: none;
+}
+
+.mobaile-menu {
+    display: none;
+}
+
+.header-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0%;
+}
+
+.logo img {
+    width: 40px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+
+    /* Button 2 */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.btn a{
+    padding: 12px 24px;
+    background: var(--btn-color);
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 42px;
+}
+
+li a {
+    color: var(--btn-color);
+    text-align: center;
+
+    /* P3 */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+li a:hover {
+    color: red
+}
+
+.btn a:hover {
+    background: red;
+}
+.btn-2 a:hover {
+    background: red;
+}
+.btn-3 a:first-child:hover {
+    background: red;
+}
+.btn-3 a:last-child:hover {
+    color: red;
+}
+.btn-4 a:hover {
+    background: red;
+}
+.btn-5 a:hover {
+    background: red;
+}
+
+.search-bar input {
+    width: 100%;
+    flex-shrink: 0;
+    padding: 14px 0 14px 43px;
+    color: #5D696D;
+
+    /* P4 */
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #D8E0E2;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.search-bar {
+    width: 330px;
+    height: 52px;
+    position: relative;
+}
+
+.search-bar img {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+
+.main-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-container h1{
+    color: var(--btn-color);
+    width: 460px;
+    margin-bottom: 20px;
+    /* margin-top: 121px; */
+    
+
+    /* H1 */
+    font-family: Sentient;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px; /* 108.571% */
+}
+
+.hero-container p{
+    width: 440px;
+    color: var(--btn-color);
+    margin-bottom: 40px;
+
+    /* P1 */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 160% */
+}
+
+.hero-container img {
+    position: absolute;
+    top: 165px;
+    left: 180px;
+}
+
+.btn-2 a{
+    padding: 15px 36px;
+    background: var(--btn-color);
+    border-radius: 8px;
+}
+
+.hero-img img {
+    width: 598.282px;
+    margin-top: 60px;
+}
+
+.hero {
+    background: linear-gradient(180deg, #02B5EA 0%, rgba(2, 181, 234, 0.15) 100%);
+}
+
+.main-flex-container-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-img-2 h2 {
+    width: 535px;
+    color: var(--btn-color);
+    margin-top: 150px;
+    margin-bottom: 70px;
+
+    /* H2 */
+    font-family: Sentient;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 109.524% */
+}
+
+.hero-img-2 img {
+    width: 535px;
+}
+
+.hero-container-2 img:first-child {
+    margin-top: 262px;
+    margin-bottom: 47px;
+    margin-left: 135px;
+}
+
+.hero-container-2 h4 {
+    color: var(--btn-color);
+    margin-bottom: 12px;
+
+    /* H3 */
+    font-family: Sentient;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 118.182% */
+}
+
+.price {
+    color: #5D696D;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+    /* P3 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.money {
+    color: var(--btn-color);
+    margin-bottom: 18px;
+
+    /* H3 Bold */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 118.182% */
+}
+
+.discription {
+    width: 391px;
+    color: #5D696D;
+    margin-bottom: 38px;
+
+    /* P3 */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.btn-3 a:first-child{
+    padding: 15px 36px;
+    background: var(--btn-color);
+    border-radius: 8px;
+}
+
+.btn-3 a:last-child {
+    color: var(--btn-color);
+    background-color: #FFFFFF;
+    margin-left: 30px;
+
+    /* Button 1 */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
+.text {
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.text h3 {
+    width: 570px;
+    color: var(--btn-color);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 18px;
+    
+    /* H2 */
+    font-family: Sentient;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 109.524% */
+}
+
+.text p {
+    margin: auto;
+    width: 570px;
+    color: #5D696D;
+    text-align: center;
+    
+    /* P2 */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 33px;
+}
+
+.product h6 {
+    color: var(--btn-color);
+    margin-bottom: 8px;
+
+    /* H3 Semi */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 145.455% */
+}
+
+.product p {
+    color: #5D696D;
+    margin-bottom: 8px;
+
+    /* Button 2 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+}
+
+.btn-4 a {
+    padding: 15px 36px;
+    background: var(--btn-color);
+    border-radius: 8px;
+}
+
+.btn-4 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.popular-chips {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wavy-ondulees h4 {
+    color: var(--btn-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    /* H3 Semi */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 145.455% */
+}
+
+.beers-and-cigar h4 {
+    color: var(--btn-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    /* H3 Semi */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 145.455% */
+}
+
+.beers-and-cigar h2 {
+    width: 570px;
+    color: var(--btn-color);
+    margin-bottom: 70px;
+
+    /* H2 */
+    font-family: Sentient;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 109.524% */
+}
+
+.popular-chips {
+    margin-top: 115px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coustomar-says h2 {
+    width: 570px;
+    color: var(--btn-color);
+    margin-top: 197px;
+
+    /* H2 */
+    font-family: Sentient;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 109.524% */
+}
+.coustomar-says p {
+    width: 570px;
+    color: var(--btn-color);
+    margin-top: 70px;
+    margin-bottom: 48px;
+
+    /* Testimonial */
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 36px; /* 163.636% */
+}
+
+.swiep {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-date {
+    width: 200px;
+}
+
+.name-date h5 {
+    color: var(--btn-color);
+    margin-top: 28px;
+
+    /* H3 Semi */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 145.455% */
+}
+.name-date p {
+    color: var(--btn-color);
+    margin: 6px;
+
+    /* P3 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.arrow img {
+    margin-top: 37px;
+}
+
+.review-img img {
+    margin-top: 100px;
+}
+
+.customer-review {
+    height: 752px;
+    background: var(--primary-color);
+}
+
+.dot {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 150px;
+}
+
+.stores{
+    height: 440px;
+    background: url(image/trans\ chips.png), lightgray -207.568px -364.001px / 129.73% 225.734% no-repeat;
+    background-color: var(--secondary-color);
+}
+
+.crisps-store h2 {
+    width: 444px;
+    color: var(--btn-color);
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+
+    
+    /* H2 */
+    font-family: Sentient;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 109.524% */
+}
+.crisps-store p {
+    width: 430px;
+    color: var(--btn-color);
+    text-align: center;
+    margin: auto;
+    margin-top: 18px;
+    
+    /* P2 */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.btn-5 a {
+    padding: 15px 36px;
+    background: var(--btn-color);
+    border-radius: 8px;
+}
+
+.btn-5 {
+    margin-top: 38px;
+    text-align: center;
+}
+
+.footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    width: 513px;
+    height: 248px;
+    flex-shrink: 0;
+    margin-top: 218px;
+}
+
+.footer-nav {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.footer-nav li a {
+    color: var(--btn-color);
+    text-align: center;
+    
+    /* P3 */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.footer-content h4 {
+    color: var(--btn-color);
+    margin-bottom: 16px;
+
+    /* H4 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+.footer-content p {
+    color: var(--btn-color);
+    margin-top: 24px;
+
+    /* P3 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.footer {
+    height: 648px;
+    background: #FFF7E3;
+}
+
+.footer-img img {
+    margin-top: 100px;
+    width: 570px;
+    height: 484px;
+}
+
+@media (max-width: 720px) {
+
+    body {
+        width: 720px;
+    }
+    img {
+        max-width: 100%;
+        transition: all 0.5s ease;
+    }
+    .container {
+        max-width: 720px;
+        margin: auto;
+    }
+    .header {
+        max-width: 100%;
+        padding: 25px 0;
+        background-color: #FFFFFF;
+    }
+    main {
+        max-width: 100%;
+    }
+    footer {
+        max-width: 100%;
+    }
+    nav ul {
+        gap: 20px;
+    }
+    li a {
+        font-size: 10px;
+    }
+    .search-bar {
+        width: 150px;
+        height: 34px;
+    }
+    .search-bar input {
+        padding: 5px 0 5px 32px;
+        font-size: 10px;
+    }
+    .search-bar img {
+        width: 16px;
+        top: 11px;
+        left: 10px;
+    }
+    .profile-img img {
+        width: 30px;
+    }
+    a {
+        font-size: 10px;
+    }
+    .hero-container h1 {
+        width: 250px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .hero-container p {
+        width: 319px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .hero-container img {
+        width: 44px;
+        top: 88px;
+        left: 108px;
+    }
+    .btn-2 a {
+        padding: 12px 27px;
+    } 
+    .hero-img img {
+        margin-top: 0px;
+    }
+    .hero-img-2 img {
+        width: 340px;
+    }
+
+    .hero-container {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .hero-img-2 h2 {
+        width: 334px;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 55px;
+    }
+    .hero-container-2 img:first-child {
+        width: 200px;
+        margin-top: 145px;
+        margin-bottom: 30px;
+        margin-left: 100px;
+    }
+    .hero-container-2 h4 {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    .stars img {
+        width: 20px;
+    }
+    .star {
+        width: 70px;
+    } 
+    .price {
+        font-size: 12px;
+        margin-top: 3px;
+        margin-bottom: 4px;
+    }
+    .money {
+        margin-bottom: 12px;
+    }
+    .discription {
+        width: 308px;
+        font-size: 11px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .btn-3 a:first-child {
+        padding: 10px 25px;
+    }
+    .btn-3 a:last-child {
+        margin-left: 17px;
+        font-size: 13px;
+    }
+    .main-flex-container-2 {
+        gap: 13px;
+    }
+    .hero-img-2 {
+        margin-left: 10px;
+    }
+    .product p {
+        font-size: 12px;
+    }
+    .wavy-ondulees h4 {
+        width: 335px;
+        font-size: 17px;
+    }
+    .beers-and-cigar h2 {
+        width: 270px;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .popular-chips {
+        margin-top: 70px;
+        gap: 15px;
+    }
+    .beers-and-cigar h4 {
+        font-size: 17px;
+    }
+    .wavy-ondulees {
+        margin-left: 5px;
+    }
+    .coustomar-says h2 {
+        width: 350px;
+        font-size: 28px;
+        margin-top: 144px;
+    }
+    .coustomar-says p {
+        width: 350px;
+        font-size: 14px;
+        margin-top: 30px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .name-date h5 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .name-date p {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .arrow img {
+        margin-top: 18px;
+        width: 95px;
+    }
+    .review-img img {
+        width: 265px;
+        margin-top: 90px;
+    }
+    .customer-review {
+        width: 100%;
+        height: 600px;
+    }
+    .coustomar-says {
+        width: 370px;
+        margin-left: 5px;
+    }
+    .crisps-store p {
+        width: 510px;
+    }
+    .footer-content {
+        width: 300px;
+        margin-top: 70px;
+    }
+    .footer-nav ul {
+        margin-left: 20px;
+    }
+    .footer-logo img {
+        margin-left: 20px;
+    }
+    .footer-content h4 {
+        margin-left: 20px;
+    }
+    .socail {
+        margin-left: 20px;
+    }
+    .footer-content p {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .footer-img img {
+        width: 400px;
+        height: auto;
+    }
+    .footer {
+        height: 525px;
+    }
+    .footer-nav ul {
+        gap: 7px;
+        flex-direction: column;
+    }
+    .footer-nav li a {
+        font-size: 10px;
+    }
+    .header-flex-container {
+        gap: 16px;
+        justify-content: center;
+    }
+    .hero-container-2 {
+        width: 351px;
+    }
+    .reviews {
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    body {
+        width: 576px;
+    }
+    img {
+        max-width: 100%;
+        transition: all 0.5s ease;
+    }
+    .container {
+        max-width: 576px;
+        margin: auto;
+    }
+    .header {
+        max-width: 100%;
+        padding: 25px 0;
+        background-color: #FFFFFF;
+    }
+    main {
+        max-width: 100%;
+    }
+    footer {
+        max-width: 100%;
+    }
+    nav ul {
+        gap: 13px;
+    }
+    li a {
+        font-size: 6px;
+    }
+    .search-bar {
+        width: 150px;
+        height: 34px;
+    }
+    .search-bar input {
+        padding: 5px 0 5px 32px;
+        font-size: 10px;
+    }
+    .search-bar img {
+        width: 16px;
+        top: 11px;
+        left: 10px;
+    }
+    .profile-img img {
+        width: 30px;
+    }
+    a {
+        font-size: 10px;
+    }
+    .hero-container h1 {
+        width: 250px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .hero-container p {
+        width: 319px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .hero-container img {
+        width: 44px;
+        top: 88px;
+        left: 108px;
+    }
+    .btn-2 a {
+        padding: 12px 27px;
+    } 
+    .hero-img img {
+        margin-top: 0px;
+    }
+    .hero-img-2 img {
+        width: 340px;
+    }
+
+    .hero-container {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .hero-img-2 h2 {
+        width: 334px;
+        font-size: 30px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 55px;
+    }
+    .hero-container-2 img:first-child {
+        width: 200px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 27px;
+        margin-bottom: 30px;
+    }
+    .hero-container-2 h4 {
+        font-size: 17px;
+        margin: auto;
+        margin-bottom: 6px;
+    }
+    .stars img {
+        width: 20px;
+    }
+    .star {
+        width: 70px;
+    } 
+    .price {
+        font-size: 12px;
+        margin-top: 3px;
+        margin-bottom: 4px;
+    }
+    .money {
+        margin-bottom: 12px;
+    }
+    .discription {
+        width: 308px;
+        font-size: 11px;
+        margin-left: 26px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .btn-3 a:first-child {
+        padding: 10px 25px;
+    }
+    .btn-3 a:last-child {
+        margin-left: 17px;
+        font-size: 13px;
+    }
+    .main-flex-container-2 {
+        gap: 13px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-img-2 {
+        margin-left: 10px;
+    }
+    .product p {
+        font-size: 12px;
+    }
+    .wavy-ondulees h4 {
+        width: 335px;
+        font-size: 17px;
+    }
+    .beers-and-cigar h2 {
+        width: 270px;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .popular-chips {
+        margin-top: 70px;
+        gap: 15px;
+    }
+    .beers-and-cigar h4 {
+        font-size: 17px;
+    }
+    .wavy-ondulees {
+        margin-left: 5px;
+    }
+    .coustomar-says h2 {
+        width: 350px;
+        font-size: 28px;
+        margin-top: 144px;
+    }
+    .coustomar-says p {
+        width: 350px;
+        font-size: 14px;
+        margin-top: 30px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    .name-date h5 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .name-date p {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .arrow img {
+        margin-top: 18px;
+        width: 95px;
+    }
+    .review-img img {
+        width: 265px;
+        margin-top: 90px;
+    }
+    .customer-review {
+        width: 100%;
+        height: 600px;
+    }
+    .coustomar-says {
+        width: 370px;
+        margin-left: 5px;
+    }
+    .crisps-store p {
+        width: 510px;
+    }
+    .footer-content {
+        width: 300px;
+        margin-top: 70px;
+    }
+    .footer-nav ul {
+        margin-left: 20px;
+    }
+    .footer-logo img {
+        margin-left: 20px;
+    }
+    .footer-content h4 {
+        margin-left: 20px;
+    }
+    .socail {
+        margin-left: 20px;
+    }
+    .footer-content p {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .footer-img img {
+        width: 400px;
+        height: auto;
+    }
+    .footer {
+        height: 525px;
+    }
+    .footer-nav ul {
+        gap: 7px;
+        flex-direction: column;
+    }
+    .footer-nav li a {
+        font-size: 10px;
+    }
+    .header-flex-container {
+        gap: 10px;
+        justify-content: center;
+    }
+    .hero-container-2 {
+        width: 351px;
+        margin: auto;
+    }
+    .reviews {
+        justify-content: center;
+        gap: 15px;
+    }
+    .popular-chips {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wavy-chips {
+        width: 390px;
+    }
+    .beers-chips {
+        width: 390px;
+    }
+    .products {
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 375px) {
+
+    body {
+        width: 375px;
+    }
+    img {
+        max-width: 100%;
+        transition: all 0.5s ease;
+    }
+    .container {
+        max-width: 373px;
+        margin: auto;
+    }
+    .mobaile-menu {
+        display: block;
+    }
+    .mobaile-menu img {
+        width: 25px;
+    }
+    nav {
+        display: none;
+    }
+    .search-bar {
+        display: none;
+    }
+    .profile-img {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    .header-flex-container {
+        justify-content: center;
+        gap: 260px;
+    }
+    .main-flex-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-container {
+        order: 2;
+    }
+    .hero {
+        height: 760px;
+    }
+    .hero-2 {
+        position: relative;
+    }
+    .hero-container-2 img:first-child {
+        position: absolute;
+        width: 75px;
+        top: -498px;
+        left: -162px;
+    }
+    .hero-container-2 {
+        text-align: start;
+        margin-left: 30px;
+    }
+    .discription {
+        margin-left: 0;
+    }
+    .text h3 {
+        width: 300px;
+        font-size: 26px;
+    }
+    .text p {
+        width: 360px;
+        font-size: 14px;
+    }
+    .products {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .beers-chips {
+        display: none;
+    }
+    .beers-and-cigar h4 {
+        display: none;
+    }
+    .beers-and-cigar img {
+        display: none;
+    }
+    .beers-and-cigar h2 {
+        display: none;
+    }
+    .popular-chips {
+        margin-top: 100px;
+    }
+    .reviews {
+        flex-direction: column;
+    }
+    .customer-review {
+        height: 875px;
+    }
+    .coustomar-says{
+        order: 2;
+    }
+    .coustomar-says h2 {
+        margin-top: 20px;
+    }
+    .review-img img {
+        width: 370px;
+        margin-top: 17px;
+    }
+    .swiep {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+    }
+    .crisps-store h2 {
+        width: 339px;
+        font-size: 26px;
+    }
+    .crisps-store p {
+        width: 339px;
+        font-size: 14px;
+    }
+    .footer-flex-container {
+        flex-direction: column;
+    }
+    .footer-content {
+        order: 2;
+        margin-top: 40px;
+    }
+    .footer {
+        height: 850px;
+    }
+    .footer-img img {
+        margin-top: 50px;
+    }
+    .footer-nav {
+        display: block;
+    }
+    .footer-nav ul {
+        gap: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -776,9 +776,6 @@ li a:hover {
         width: 370px;
         margin-left: 5px;
     }
-    .crisps-store p {
-        width: 510px;
-    }
     .footer-content {
         width: 300px;
         margin-top: 70px;
@@ -829,15 +826,20 @@ li a:hover {
 @media (max-width: 576px) {
 
     body {
-        width: 576px;
+        width: 100%;
+    }
+    html {
+        width: 100%;
     }
     img {
         max-width: 100%;
         transition: all 0.5s ease;
     }
     .container {
-        max-width: 576px;
-        margin: auto;
+        max-width: 100%;
+    }
+    .mobaile-menu {
+        display: block;
     }
     .header {
         max-width: 100%;
@@ -850,27 +852,17 @@ li a:hover {
     footer {
         max-width: 100%;
     }
-    nav ul {
-        gap: 13px;
-    }
-    li a {
-        font-size: 6px;
+    nav {
+        display: none;
     }
     .search-bar {
-        width: 150px;
-        height: 34px;
+        display: none;
     }
-    .search-bar input {
-        padding: 5px 0 5px 32px;
-        font-size: 10px;
+    .profile-img {
+        display: none;
     }
-    .search-bar img {
-        width: 16px;
-        top: 11px;
-        left: 10px;
-    }
-    .profile-img img {
-        width: 30px;
+    .btn {
+        display: none;
     }
     a {
         font-size: 10px;
@@ -895,11 +887,29 @@ li a:hover {
     } 
     .hero-img img {
         margin-top: 0px;
+        width: 300px;
     }
     .hero-img-2 img {
         width: 340px;
     }
-
+    .text h3 {
+        width: 358px;
+        font-size: 30px;
+    }
+    .text p {
+        width: 358px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .crisps-store h2 {
+        width: 313px;
+        font-size: 30px;
+    }
+    .crisps-store p {
+        width: 313px;
+        font-size: 12px;
+        line-height: 20px;
+    }
     .hero-container {
         width: 300px;
         margin-left: 10px;
@@ -984,7 +994,7 @@ li a:hover {
     .coustomar-says h2 {
         width: 350px;
         font-size: 28px;
-        margin-top: 144px;
+        margin-top: 10px;
     }
     .coustomar-says p {
         width: 350px;
@@ -1007,18 +1017,17 @@ li a:hover {
     }
     .review-img img {
         width: 265px;
-        margin-top: 90px;
+        margin-top: 16px;
     }
     .customer-review {
         width: 100%;
-        height: 600px;
+        height: 675px;
     }
     .coustomar-says {
+        margin: auto;
+        height: 300px;
+        order: 2;
         width: 370px;
-        margin-left: 5px;
-    }
-    .crisps-store p {
-        width: 510px;
     }
     .footer-content {
         width: 300px;
@@ -1054,15 +1063,37 @@ li a:hover {
     .footer-nav li a {
         font-size: 10px;
     }
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-nav {
+        display: block;
+    }
+    .main-flex-container {
+        flex-direction: column;
+    }
+    .hero-container {
+        order: 2;
+    }
+    .hero {
+        height: 915px;
+    }
+
     .header-flex-container {
-        gap: 10px;
-        justify-content: center;
+        gap: 0px;
+        margin: auto;
+        width: 530px;
+        justify-content: space-between;
     }
     .hero-container-2 {
         width: 351px;
         margin: auto;
     }
     .reviews {
+        margin: auto;
+        width: 400px;
+        flex-direction: column;
+        text-align: center;
         justify-content: center;
         gap: 15px;
     }
@@ -1085,14 +1116,14 @@ li a:hover {
 @media (max-width: 375px) {
 
     body {
-        width: 375px;
+        width: 100%;
     }
     img {
         max-width: 100%;
         transition: all 0.5s ease;
     }
     .container {
-        max-width: 373px;
+        max-width: 100%;
         margin: auto;
     }
     .mobaile-menu {
@@ -1171,33 +1202,57 @@ li a:hover {
         margin-top: 100px;
     }
     .reviews {
+        width: 100%;
+        height: 555px;
         flex-direction: column;
     }
     .customer-review {
-        height: 875px;
+        height: 555px;
     }
     .coustomar-says{
         order: 2;
+        height: 220px;
     }
     .coustomar-says h2 {
-        margin-top: 20px;
+        width: 230px;
+        line-height: 20px;
+        font-size: 20px;
+        margin-top: 0px;
+        margin: auto;
+    }
+    .coustomar-says p {
+        width: 230px;
+        line-height: 15px;
+        font-size: 11px;
+        margin: auto;
+        margin-top: 18px;
+    }
+    .name-date p {
+        width: 92px;
+        margin: 0%;
     }
     .review-img img {
-        width: 370px;
+        width: 250px;
         margin-top: 17px;
     }
     .swiep {
-        flex-direction: column;
-        justify-content: center;
-        gap: 0;
+        justify-content: space-between;
+    }
+    .name-date h5 {
+        width: 142px;
     }
     .crisps-store h2 {
-        width: 339px;
-        font-size: 26px;
+        width: 235px;
+        padding-top: 30px;
+        font-size: 18px;
     }
     .crisps-store p {
-        width: 339px;
-        font-size: 14px;
+        width: 260px;
+        font-size: 11px;
+        margin-top: 2px;
+    }
+    .stores {
+        height: 240px;
     }
     .footer-flex-container {
         flex-direction: column;
